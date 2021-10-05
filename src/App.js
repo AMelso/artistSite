@@ -1,8 +1,10 @@
 import React from "react";
+import {Header} from './components/Header'
+import { PageBodyTemplate } from "./components/PageBodyTemplate";
+import { Footer } from "./components/Footer";
+import { Home } from "./components/Home";
 
 
-import {Navbar} from './components/Navbar'
-import {Socials} from './components/Socials'
 
 import {
   BrowserRouter as Router,
@@ -10,15 +12,18 @@ import {
 } from 'react-router-dom'
 
 
+
 function App() {
   return (
     
     <Router>
       <div className="bg">
-        <Navbar />
-        <Socials />
-          {/* <exact path="/" component={Home} />
-          <exact path="/tetris" component={Music} />
+        < Header />
+        < Home />
+        < Footer />
+
+          {/* <exact path="/" component={PageBodyTemplate} /> */}
+          {/* <exact path="/tetris" component={Music} />
           <exact path="/forum/add" component={Videos} />
           <exact path="/forum/:id/edit" component={About} />
           <exact path="/forum" component={Book} /> */}

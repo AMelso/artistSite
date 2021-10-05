@@ -13,9 +13,9 @@ code {
 }
 
 .bg {
-  background-image: url('./img/background.jpeg');
+  background-image: url('./img/background_1200x600.png');
   background-size: cover;
   border: 2px solid black;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
