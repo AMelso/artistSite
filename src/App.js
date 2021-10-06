@@ -1,6 +1,5 @@
 import React from "react";
 import {Header} from './components/Header'
-import { PageBodyTemplate } from "./components/PageBodyTemplate";
 import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 
@@ -18,6 +17,7 @@ function App() {
     
     <Router>
       <div className="bg">
+       
         < Header />
         < Home />
         < Footer />
@@ -27,6 +27,7 @@ function App() {
           <exact path="/forum/add" component={Videos} />
           <exact path="/forum/:id/edit" component={About} />
           <exact path="/forum" component={Book} /> */}
+      
       </div>
     </Router>
     

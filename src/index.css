@@ -13,9 +13,14 @@ code {
 }
 
 .bg {
+
   background-image: url('./img/background_1200x600.png');
   background-size: cover;
-  border: 2px solid black;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+
+  overflow: hidden;
+  position: absolute;
 }
+

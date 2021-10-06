@@ -4,7 +4,7 @@ import { Button, Grid } from 'semantic-ui-react'
 
 export const Socials = () => (
   <Grid>
-    <Grid.Column floated='right' width={8}>
+    <Grid.Column floated='right'>
       
       <Button size='massive' circular color='spotify' icon='spotify'
       onClick={ () => window.location.href='https://open.spotify.com/artist/2ZNIjCXA54WQXaPfLyam9a?si=Qdtu-zsKRXWTBT4tt3Jfyg'}>

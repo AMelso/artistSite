@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Menu, Icon } from 'semantic-ui-react'
+import { Grid, Menu } from 'semantic-ui-react'
 import { NavLink} from 'react-router-dom'
 
 export const Navbar = () => {

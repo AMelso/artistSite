@@ -1,6 +1,8 @@
 import React from 'react'
-import { Grid, Menu, Segment } from 'semantic-ui-react'
-import {UpcomingEvents} from './UpcomingEvents'
+import {Grid} from 'semantic-ui-react'
+import {Upcoming1} from './UpcomingEvents'
+
+
 
 
 export const Home = () => (
@@ -8,7 +10,7 @@ export const Home = () => (
 
   // Top left/right 30% height of page
   <div>
-    <Grid stackable columns = {2} style={{height: '37vh'}}>
+    <Grid stackable columns = {2} style={{height: '35vh'}}>
 
       {/* Top left column body height 30% from grid property */}
       <Grid.Column floated='left'>
@@ -24,12 +26,12 @@ export const Home = () => (
     </Grid>
 
     {/* Bottom right/left height 30% of page, 1/2 60 body */}
-    <Grid stackable columns = {2} style={{height: '36vh'}}>
+    <Grid stackable columns = {2} style={{height: '44vh'}}>
 
     {/* bottomleft column body height 30% from grid property */}
     <Grid.Column floated='left' >
-    
-    <UpcomingEvents />
+      
+      <Upcoming1 />
       
     </Grid.Column>
 

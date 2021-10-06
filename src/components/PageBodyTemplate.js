@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Image } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 
 
 export const PageBodyTemplate = () => (
@@ -23,7 +23,7 @@ export const PageBodyTemplate = () => (
     </Grid>
 
     {/* Bottom right/left height 30% of page, 1/2 60 body */}
-    <Grid stackable columns = {2} style={{height: '36vh'}}>
+    <Grid stackable columns = {2} style={{height: '37vh'}}>
 
     {/* bottomleft column body height 30% from grid property */}
     <Grid.Column floated='left' >
