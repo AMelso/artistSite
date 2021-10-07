@@ -10,7 +10,7 @@ export const Home = () => (
 
   // Top left/right 30% height of page
   <div>
-    <Grid stackable columns = {2} style={{height: '35vh'}}>
+    <Grid stackable columns = {2} style={{height: '40vh'}}>
 
       {/* Top left column body height 30% from grid property */}
       <Grid.Column floated='left'>
@@ -24,9 +24,9 @@ export const Home = () => (
       </Grid.Column>
 
     </Grid>
-
+    
     {/* Bottom right/left height 30% of page, 1/2 60 body */}
-    <Grid stackable columns = {2} style={{height: '44vh'}}>
+    <Grid stackable columns = {2} style={{height: '40vh'}}>
 
     {/* bottomleft column body height 30% from grid property */}
     <Grid.Column floated='left' >

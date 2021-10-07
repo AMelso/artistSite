@@ -6,7 +6,7 @@ import Logo from '../img/Logo.png'
 export const Header = () => (
     
 
-  <Grid stackable columns = {2} style={{height: '15vh'}}>
+  <Grid stackable columns = {2} style={{height: '12vh'}}>
 
       {/* left column height 20% from grid property */}
       <Grid.Column floated='left' >
