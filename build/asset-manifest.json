@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34eaced3.chunk.css",
+    "main.js": "/static/js/main.f30dc4e7.chunk.js",
+    "main.js.map": "/static/js/main.f30dc4e7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.34771470.js",
+    "runtime-main.js.map": "/static/js/runtime-main.34771470.js.map",
+    "static/css/2.7dce832d.chunk.css": "/static/css/2.7dce832d.chunk.css",
+    "static/js/2.0ca01e04.chunk.js": "/static/js/2.0ca01e04.chunk.js",
+    "static/js/2.0ca01e04.chunk.js.map": "/static/js/2.0ca01e04.chunk.js.map",
+    "static/js/3.b9f03137.chunk.js": "/static/js/3.b9f03137.chunk.js",
+    "static/js/3.b9f03137.chunk.js.map": "/static/js/3.b9f03137.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7dce832d.chunk.css.map": "/static/css/2.7dce832d.chunk.css.map",
+    "static/css/main.34eaced3.chunk.css.map": "/static/css/main.34eaced3.chunk.css.map",
+    "static/js/2.0ca01e04.chunk.js.LICENSE.txt": "/static/js/2.0ca01e04.chunk.js.LICENSE.txt",
+    "static/media/Bday.46dbf49a.png": "/static/media/Bday.46dbf49a.png",
+    "static/media/FamiliarFace.e1005076.png": "/static/media/FamiliarFace.e1005076.png",
+    "static/media/Feelin.796ec63f.png": "/static/media/Feelin.796ec63f.png",
+    "static/media/Logo.d495756e.png": "/static/media/Logo.d495756e.png",
+    "static/media/Profile.0f322e73.png": "/static/media/Profile.0f322e73.png",
+    "static/media/Show4.9477d6e1.png": "/static/media/Show4.9477d6e1.png",
+    "static/media/Show5.722c23cc.png": "/static/media/Show5.722c23cc.png",
+    "static/media/Show6.0694dbc6.png": "/static/media/Show6.0694dbc6.png",
+    "static/media/Show_3.faf624f9.png": "/static/media/Show_3.faf624f9.png",
+    "static/media/Weekend.a083628d.png": "/static/media/Weekend.a083628d.png",
+    "static/media/index.css": "/static/media/background_1200x600.eb79e1c6.png",
+    "static/media/backnforth.6d7748de.png": "/static/media/backnforth.6d7748de.png",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/demons.7715a2c6.png": "/static/media/demons.7715a2c6.png",
+    "static/media/show2.463550f2.png": "/static/media/show2.463550f2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34771470.js",
+    "static/css/2.7dce832d.chunk.css",
+    "static/js/2.0ca01e04.chunk.js",
+    "static/css/main.34eaced3.chunk.css",
+    "static/js/main.f30dc4e7.chunk.js"
+  ]
+}
