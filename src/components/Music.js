@@ -1,15 +1,12 @@
 import React from 'react'
-import { Grid, Card, Icon, Image, Container } from 'semantic-ui-react'
-import Profile from '../img/Profile.png'
+import { Grid, Embed, Container, Divider, Icon } from 'semantic-ui-react'
 
-
-
-
-export const About = () => (
+export const Music = () => (
     
 
   // Top left/right 30% height of page
   <div>
+    <font size="+2">
     <Grid stackable columns = {2} style={{height: '40vh'}}>
 
         {/* Top left column body height 30% from grid property */}
@@ -20,32 +17,26 @@ export const About = () => (
             <Grid columns={2} divided>
               <Grid.Row>
                 <Grid.Column>
-                  {/* 1 */}
+                  {/* leave blank for logo */}
                 </Grid.Column>
                 <Grid.Column>
-
-                <Card>
-                  <Image src={Profile} wrapped ui={false} />
-                  <Card.Content>
-                    <Card.Header>Blossom Reynolds</Card.Header>
-                    <Card.Meta>
-                      <span className='date'>Joined in 1991?</span>
-                    </Card.Meta>
-                    <Card.Description>
-                      Blossom Reynolds is from Parma, Ohio.
-                      He has been touring for 3 years, setting up a base in the Cleveland area.
-                      Has performed in L.A.
-                    </Card.Description>
-                  </Card.Content>
-                  <Card.Content extra>P
-                    <a>
-                      <Icon name='user' />
-                      22 Friends
-                    </a>
-                  </Card.Content>
-                </Card>
-
-
+                <Embed
+                    
+                    autoplay={true}
+                    brandedUI
+                    color='white'
+                    hd={false}
+                    url="https://soundcloud.com/blossomreynolds/the-feelin-prod-king-theta-iof"
+                    icon="play circle"
+                    
+                  />
+                  {/* Text container */}
+                  <Container textAlign='center'>
+                    <Divider />
+                    <p>
+                    <b> Familiar Face - 2021 </b>
+                    </p>
+                      </Container>
                 </Grid.Column>
               </Grid.Row>
             </Grid>
@@ -59,10 +50,10 @@ export const About = () => (
             <Grid columns={2} divided>
               <Grid.Row>
                 <Grid.Column>
-                 {/* 3 */}
+                  {/* leave blank for head */}
                 </Grid.Column>
                 <Grid.Column>
-                  {/* 4 */}
+                  4
                 </Grid.Column>
               </Grid.Row>
             </Grid>
@@ -83,10 +74,10 @@ export const About = () => (
             <Grid columns={2} divided>
               <Grid.Row>
                 <Grid.Column>
-                  {/* 5 */}
+                   5
                 </Grid.Column>
                 <Grid.Column>
-                  {/* 6 */}
+                    6
                 </Grid.Column>
               </Grid.Row>
             </Grid>
@@ -103,10 +94,13 @@ export const About = () => (
             <Grid columns={2} divided>
               <Grid.Row>
                 <Grid.Column>
-                  {/* 7 */}
+                    
+                  7
+
                 </Grid.Column>
                 <Grid.Column>
-                  {/* 8 */}
+                  8
+                      
                 </Grid.Column>
               </Grid.Row>
             </Grid>
@@ -114,5 +108,6 @@ export const About = () => (
     </Grid.Column>
 
     </Grid>
+    </font>
   </div>
   )

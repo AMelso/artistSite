@@ -2,6 +2,9 @@ import React from 'react'
 import { Grid, Embed, Container, Divider } from 'semantic-ui-react'
 import FamililarFace from '../img/FamiliarFace.png'
 import Feelin from '../img/Feelin.png'
+import backnforth from '../img/backnforth.png'
+import demons from '../img/demons.png'
+import Weekend from '../img/Weekend.png'
 
 
 
@@ -11,6 +14,7 @@ export const Videos = () => (
 
   // Top left/right 30% height of page
   <div>
+    <font size="+2">
     <Grid stackable columns = {2} style={{height: '40vh'}}>
 
         {/* Top left column body height 30% from grid property */}
@@ -26,7 +30,7 @@ export const Videos = () => (
                 <Grid.Column>
                   {/* Spot 2 */}
                   <Embed
-                    autoplay={false}
+                    autoplay={true}
                     brandedUI
                     color='white'
                     hd={false}
@@ -94,10 +98,40 @@ export const Videos = () => (
             <Grid columns={2} divided>
               <Grid.Row>
                 <Grid.Column>
-                  5
+                   <Embed
+                        autoplay={false}
+                        brandedUI
+                        color='blue'
+                        hd={false}
+                        id='N3MjIzI2Kz0'
+                        placeholder={Weekend}
+                        source='youtube'
+                      />
+                      {/* Text container */}
+                      <Container textAlign='center'>
+                        <Divider />
+                        <p>
+                        <b> Whole Weekend Wasted EP - 2018</b>
+                        </p>
+                      </Container>
                 </Grid.Column>
                 <Grid.Column>
-                  6
+                    <Embed
+                        autoplay={false}
+                        brandedUI
+                        color='white'
+                        hd={false}
+                        id='Udz7bARlzX0'
+                        placeholder={backnforth}
+                        source='youtube'
+                      />
+                      {/* Text container */}
+                      <Container textAlign='center'>
+                        <Divider />
+                        <p>
+                        <b> Back N Forth - 2020 </b>
+                        </p>
+                      </Container>
                 </Grid.Column>
               </Grid.Row>
             </Grid>
@@ -114,10 +148,29 @@ export const Videos = () => (
             <Grid columns={2} divided>
               <Grid.Row>
                 <Grid.Column>
-                  7
+                    
+                  {/* 7 */}
+
                 </Grid.Column>
                 <Grid.Column>
-                  8
+                  <Embed
+                        autoplay={false}
+                        brandedUI
+                        color='blue'
+                        hd={false}
+                        id='fxaYb4X7RsA'
+                        placeholder={demons}
+                        source='youtube'
+                        
+                      />
+                      {/* Text container */}
+                      <Container textAlign='center'>
+                        
+                        <p>
+                         <b> Demons - 2018</b>
+                        </p> 
+                      </Container>
+                      
                 </Grid.Column>
               </Grid.Row>
             </Grid>
@@ -125,5 +178,6 @@ export const Videos = () => (
     </Grid.Column>
 
     </Grid>
+    </font>
   </div>
   )

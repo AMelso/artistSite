@@ -11,6 +11,8 @@ import { Upcoming2 } from "./components/UpcomingEvents2";
 import {Events} from "./components/Events";
 import { About } from "./components/About";
 import { Videos } from "./components/Videos";
+import { Contact } from "./components/Contact";
+import {Music} from "./components/Music";
 
 
 
@@ -27,7 +29,7 @@ function App() {
         <Route exact path="/About" component={About} />
         {/* <Route exact path="/Music" component={Music} /> */}
         <Route exact path="/Videos" component={Videos} />
-        {/* <Route exact path="/Book" component={Book} /> */}
+        <Route exact path="/Contact" component={Contact} />
 
         < Footer />
       

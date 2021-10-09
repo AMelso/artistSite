@@ -29,11 +29,11 @@ export const Navbar = () => {
             </Menu.Item>
 
 
-            <Menu.Item
+            {/* <Menu.Item
               as={NavLink} exact to="/Music"
               name='Music'
             >
-            </Menu.Item>
+            </Menu.Item> */}
 
 
             <Menu.Item
@@ -43,10 +43,10 @@ export const Navbar = () => {
             </Menu.Item>
 
             <Menu.Item
-              as={NavLink} exact to="/Book"
-              name='Book Blossom'
+              as={NavLink} exact to="/Contact"
+              name='Contact'
             >
-              Book Blossom
+              Contact
             </Menu.Item>
 
 
